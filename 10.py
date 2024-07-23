@@ -1,6 +1,6 @@
 #WAP to read a text file and display the number of vowels/consonants/uppercase/lowercase characters in the file
 f=open('display.txt')
-x=f.read()
+x=f.read() #to read a text file
 v=c=s=0
 l=u=0
 for i in x:
